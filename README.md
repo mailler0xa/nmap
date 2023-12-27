@@ -24,6 +24,11 @@ Ideally, you should be able to just type:
     ./configure
     make
     make install
+EDIT:
+On Amazon Linux, you might need to do the following first:
+```
+sudo dnf install openssl-devel libssh2-devel  gcc-c++ automake autoconf m4 perl
+```
 
 For far more in-depth compilation, installation, and removal notes, read the
 [Nmap Install Guide](https://nmap.org/book/install.html) on Nmap.org.
